@@ -1,0 +1,2 @@
+This chip is rated for 1-2s (cell) operation with lithium ion or lithium polymer batteries. This BMS config is set up for a 5 amp charging current at an 8.4 voltage running, which is supplied via the USB-C port of the BMS. This BMS has built in trip current of 35 amps, and a physical fuse onboard for currents exceeding 25 amps. This helps ensure the safety of the device and battery pack![BMSB](https://github.com/user-attachments/assets/6126f6fc-992c-47c0-a6d8-f0274339c887)
+![BMSF](https://github.com/user-attachments/assets/52fe7c1f-0610-447d-966e-cab1aa7e4a1f)
