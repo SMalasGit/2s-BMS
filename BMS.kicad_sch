@@ -1,0 +1,123 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4f9d1a14-b3e7-4864-9397-458e4f03b567")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 73.66 107.95) (xy 82.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdeceba-ff84-4e90-b549-022668fd6c28")
+	)
+	(sheet
+		(at 20.32 62.23)
+		(size 53.34 49.53)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ea88300b-56f8-4498-9fb4-b2fb8c9ed6c8")
+		(property "Sheetname" "PowerIn"
+			(at 18.542 61.976 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerIn.kicad_sch"
+			(at 19.558 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vdrive" output
+			(at 73.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "be3fa24c-2cce-4ef4-898a-3d639171ea99")
+		)
+		(instances
+			(project "BMS"
+				(path "/4f9d1a14-b3e7-4864-9397-458e4f03b567"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 45.72)
+		(size 110.49 76.2)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f1c97b0c-89ac-4019-bd06-622da742e30c")
+		(property "Sheetname" "MainBMS"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainBMS.kicad_sch"
+			(at 82.55 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vdrive" output
+			(at 82.55 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "750a83ff-5c30-493f-8705-a8595afcdafe")
+		)
+		(instances
+			(project "BMS"
+				(path "/4f9d1a14-b3e7-4864-9397-458e4f03b567"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
